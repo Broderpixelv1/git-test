@@ -1,3 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Asegura que el tamaño no se vea afectado por el padding */
+  }
+
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
 body{
-    background-color: red;
+    background-color: #F0F0F0;    
+}
+
+#container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    flex-direction: column;
+   }
+
+.content{
+    width: 70%;
+    height: 70%;
+    background-color: #D6E1F0;
+}
+
+.attribution{
+    padding-top: 10px;
 }
