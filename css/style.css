@@ -7,21 +7,19 @@
   }
 
 html, body{
-    height: 100%;
-    width: 100%;
+    height: 100vh;
+    width: 100vw;
     font-family: "Outfit", sans-serif;
-    font-size: 14px;
     font-optical-sizing: auto;
     font-style: normal;
     background-color: #F0F0F0;    
-    
 }
 
 #container{
-    width: 100%;
-    height: 100%;
+    height: 100vh;
+    width: 100vw;
     display: flex;
-    justify-content: center ;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
 }
@@ -38,9 +36,8 @@ html, body{
 
 .card{
     width: 250px;
-    height: 380px;
+    height: auto;
     background-color: white;
-    object-fit: cover;
     padding: 10px;
     border-radius: 10px;
     text-align: center;
@@ -58,26 +55,27 @@ html, body{
 }
 
 .textCard h1{
-    padding: 15px 5px 0px 5px;
+    padding: 0.94rem 0.31rem 0 0.31rem;
+    font-size: 1.08em;
 }
 .textCard p{
     color: #959595;
-    padding: 10px 5px ;
-    font-size: 13px;
+    padding: 0.8rem 0.1rem 2rem 0.1rem;
+    font-size: 14px;
 }
 
 @media (max-width:800px) {
     .content{
-        width: 100%;
-        height: 100%;
+        width: 100vw;
+        height: 100vh;
         box-shadow: none;
     }
 }
 
 @media (orientation: landscape) and (max-width:900px) {
     .content{
-        width: 100%;
-        height: 100%;
+        width: 100vw;
+        height: 100vh;
         box-shadow: none;  
     }
     #container{
