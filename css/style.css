@@ -7,17 +7,14 @@
   }
 
 html, body{
-    margin: 0;
-    padding: 0;
     height: 100%;
     width: 100%;
-}
-body{
     font-family: "Outfit", sans-serif;
+    font-size: 14px;
     font-optical-sizing: auto;
     font-style: normal;
     background-color: #F0F0F0;    
-    font-size: 14px;
+    
 }
 
 #container{
@@ -50,7 +47,7 @@ body{
     box-shadow: #bdc9dc 2px 2px 15px;
 }
 
-.card .image img{
+.card .imageCard img{
     width: 100%;
     object-fit: cover;
     border-radius: 10px;
@@ -60,10 +57,10 @@ body{
     padding-top: 10px;
 }
 
-h3{
+.textCard h3{
     padding: 15px 5px 0px 5px;
 }
-p{
+.textCard p{
     color: #959595;
     padding: 10px 5px ;
     font-size: 13px;
