@@ -68,3 +68,22 @@ p{
     padding: 10px 5px ;
     font-size: 13px;
 }
+
+@media (max-width:800px) {
+    .content{
+        width: 100%;
+        height: 100%;
+        box-shadow: none;
+    }
+}
+
+@media (orientation: landscape) and (max-width:900px) {
+    .content{
+        width: 100%;
+        height: 100%;
+        box-shadow: none;  
+    }
+    #container{
+        height: 600px;
+        
+    }
